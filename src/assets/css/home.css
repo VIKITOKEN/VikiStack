@@ -1,0 +1,191 @@
+.home .layout1{
+   padding: 3em 0 0 6em;
+}
+ 
+.home .layout1 h2{
+   font-family: "Rubik", sans-serif;
+   font-size: 3.4rem;
+   font-weight: 700;
+}
+
+.home .layout1 h1{
+   font-family: "Rubik", sans-serif;
+   font-size: 4.8rem;
+   font-weight: 700;
+   color: rgba(1, 119, 251, 1);
+}
+
+.home .layout1 p{
+   font-size: 1.4rem;
+   font-weight: 400;
+}
+.home .layout1 form {
+   margin: 1em 0 3em;
+   display: flex;
+   column-gap: 1em;
+}
+
+.home .layout1 input{
+   width: 34.4rem;
+   font-size: 1.4rem;
+   padding: .5em 0 .5em .7em;
+   border-radius: .9rem;
+   border: .1rem solid rgba(59, 60, 78, 1);
+}
+
+.home .layout1 button{
+   border-radius: .9rem;
+   font-size: 1.4rem;
+   padding: .5em .7em;
+   width: 13rem;
+   background-color: rgba(227, 51, 25, 1);
+}
+
+.home .layout2 {
+   padding: 1em 6em;
+   /* min-height: calc(100dvh - 27.9rem - 4.8rem);
+   background-color: rgba(35, 36, 47, 1); */
+}
+
+
+.home .layout2 .card{
+   width: 100%;
+   max-width: 50rem;
+   padding: 1em 0;
+   background-color: rgba(35, 36, 47, 1);
+}
+.cardHeader {
+   background-color: rgba(35, 36, 47, 1);
+   border-radius: 50rem;
+   width: fit-content;
+   background-color: rgba(44, 45, 58, 1);
+   display: flex;
+   margin: auto;
+}
+
+.cardHeader button{
+   width: 12rem;
+   border-radius: 50rem;
+}
+
+.cardHeader button.active{
+   background-color: rgba(227, 51, 25, 1);
+}
+
+.stakeLabel {
+   padding: 0 2em;
+   display: flex;
+   column-gap: 1em;
+   width: fit-content;
+   margin: 1em auto;
+   align-items: center;
+}
+
+.stakeLabel h2 {
+   font-size: 1.8rem;
+   font-weight: 600;
+}
+
+.stakeLogo{
+   display: flex;
+   width: fit-content;
+}
+
+.stakeLogo img{
+   width: 4rem;
+   height: 4rem;
+   border: .2rem solid rgba(35, 36, 47, 1);
+   border-radius: 100%;
+}
+
+.stakeLogo img:first-child {
+   width: 3.8rem;
+   height: 3.8rem;
+}
+
+.stakeLogo img:last-child {
+   margin-left: -1rem;
+}
+
+.stakeAmount {
+   display: flex;
+   align-items: center;
+   border-top: .1rem solid #ffffff12;
+   border-bottom: .1rem solid #ffffff12;
+   padding-left: 1em;
+   background-color: rgba(35, 36, 47, 1);
+}
+
+.stakeAmount  input{
+   color: #fff;
+   font-size: 3rem;
+}
+
+.stakeAmount button {
+   font-weight: 600;
+   font-size: 1.2rem;
+   width: fit-content;
+   padding: 1em;
+   border-left: .1rem solid #ffffff12;
+}
+
+.stakeItem { padding-top: 1rem; }
+
+.stakeItem li{
+   display: flex;
+   justify-content: space-between;
+   Padding: .5rem 1rem .5rem 1.5rem;
+}
+.stakeItem span {
+   font-weight: 400;
+   font-size: 1.2rem;
+   width: fit-content;
+   color: rgba(139, 140, 167, 1); 
+}
+
+.stakeItem span:last-child{ color: rgba(255, 255, 255, 1); }
+
+.stakeButton{
+   background: rgba(227, 51, 25, 1);
+   font-size: 2rem;
+   width: calc(100% - .6em);
+   margin: 1em .3em 0;
+   border-radius: 1rem;
+   padding: .5em 1em;
+}
+/* .home {
+    padding: 2em;
+   display: flex;
+   flex-wrap: wrap; 
+} */
+
+/* .home-card{
+   max-width: 43.2rem;
+   width: 100%;
+}
+
+.btn-card {
+   display: flex;
+   justify-content: space-between;
+}
+
+.home .tab__btn{
+   color: #717179;
+   font-size: 1.6rem;
+   border-bottom: .1rem solid #172340;
+}
+
+.tab__btn.active {
+   color: #aaa;
+   background-color: #121e3b;
+}
+
+.card-body {
+   padding: .5em 1em;
+   
+}
+
+.ddd{ 
+   padding: .5em 1em;
+   background-color: color-mix(in srgb, #0c1427 95%, #fff); 
+} */

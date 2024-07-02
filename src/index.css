@@ -1,0 +1,127 @@
+*,*::after,*::before {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: auto;
+   color: #fff;
+   line-height: 1.2;
+   font-style: normal;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-optical-sizing: auto;
+   font-family: "Poppins", sans-serif;
+}
+
+html { font-size: 62.5%; } /*  10px = 1rem  */
+
+body {
+   gap: .3em;
+   color: #fff;
+   display: flex;
+   font-weight: 400;
+   font-size: 1.6rem;
+   min-height: 100dvh;
+   background-color: rgba(26, 27, 35, 1);
+}
+:is(select, button) { 
+   cursor: pointer;
+   white-space: nowrap;
+}
+
+input, textarea, select, button {
+   border: 0px; 
+   outline: 0px;
+   background-color: transparent;
+}
+
+:is(input, textarea, select, button):focus {
+   box-shadow: none;
+   outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] { -moz-appearance: textfield; }
+
+.btn {   
+   justify-content: center;
+   align-items: center;
+   column-gap: .6em;
+   border-radius: .25em;
+   display: inline-flex;
+   padding: .7em .8em .6em;
+   border: 0.1rem solid transparent;
+}
+
+/* .btn[disabled] {
+   opacity: .7;
+   cursor: not-allowed;
+}
+
+.btn__svg {
+   fill: currentColor;
+   width: 1.6rem;
+   height: 1.6rem;
+}
+
+.btn__spinner {
+   animation: spin 1s linear infinite;
+   fill: currentColor;
+   width: 1.6rem;
+   height: 1.6rem;
+}  */
+
+ul { list-style: none; }
+
+header {
+   padding: .2em 2em;
+   position: sticky;
+   top: 0;
+   background-color: rgba(26, 27, 35, 1);
+   border-bottom: .1rem solid #ffffff12;
+}
+
+header, header > *{
+  display: flex;
+  column-gap: 4em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLogo { width: 2rem; }
+
+.navAddress{
+   font-weight: 400;
+   font-size: 1.4rem;
+   column-gap: 1em;
+   padding-left: 2em;
+   border-radius: 50rem;
+   width: fit-content;
+   background-color: rgba(44, 45, 58, 1)
+}
+
+.navAddress .btn {
+   font-weight: 600;
+   font-size: 1.4rem;
+
+   border-radius: 50rem;
+   background-color: rgba(227, 51, 25, 1);
+
+}
+
+.navList {
+   width: fit-content;
+   margin-right: auto;
+}
+
+.card {
+   border-radius: 0.5rem;
+   background-color: #0c1427;
+   background-clip: border-box;
+   border: .1rem solid #ffffff12;
+}
